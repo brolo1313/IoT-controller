@@ -24,7 +24,7 @@ uint16_t rawData[99] = {3158, 1542, 566, 1042, 570, 1014, 566, 278, 570, 222,
 
 const uint8_t RECV_PIN = D5;
 
-const uint16_t kIrLedPin = D2; // Пін, до якого підключений ІЧ-світлодіод
+const uint16_t kIrLedPin = D2;
 IRsend irsend(kIrLedPin);
 IRrecv irrecv(RECV_PIN);
 decode_results results;
