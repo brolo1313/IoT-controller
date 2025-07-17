@@ -5,6 +5,6 @@
 .vscode/ipch
 
 src/secrets.h
-src/test
+src/test/
 lib
 include
